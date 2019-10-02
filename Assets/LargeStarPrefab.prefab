@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 64850146765965796}
   - component: {fileID: 114868965004271040}
   m_Layer: 0
-  m_Name: LargeStar
-  m_TagString: Untagged
+  m_Name: LargeStarPrefab
+  m_TagString: LargeStarTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: afdbb5e6ca43d42a39c2a3ddbe270a19, type: 2}
+  - {fileID: 2100000, guid: 571f31a2d768947b2899de54be25e5dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

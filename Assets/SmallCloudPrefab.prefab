@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23849205815739882}
   - component: {fileID: 64703669374013094}
   - component: {fileID: 114712734584751566}
+  - component: {fileID: 114215990851716368}
   m_Layer: 0
-  m_Name: SmallCloud
-  m_TagString: Untagged
+  m_Name: SmallCloudPrefab
+  m_TagString: SmallCloudTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +99,17 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 18e434ea9d0ff4a24b7a16c6279ba605, type: 3}
+--- !u!114 &114215990851716368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1595443828251138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63f8164bc61a4aa9a4c7c3662697002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114712734584751566
 MonoBehaviour:
   m_ObjectHideFlags: 1
